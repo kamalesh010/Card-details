@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:white;
+    background-image: url(bg-main-desktop.png);
+    background-repeat: no-repeat;
+}
+.card{
+    height: 100vh;
+    width: 100vw;
+}
+.front{
+    height: 100vh;
+    width: 100vw;
+    
+}
+.frontcard{
+    margin: 69px 0px 0px 86px;
+
+}
+.backs{
+    display: flex;
+
+}
+.back{
+    margin: 24px 0px 0px 197px;
+}
+.info{
+    height: 93vh;
+    width: 53vw;
+    position: relative;
+    top: -96%;
+    left: 44%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.design{
+    height: 100vh;
+    width: 42vw;
+    
+}
+.user{
+  
+    height: 37px;
+    width: 316px;
+    padding: 17px;
+}
+form{
+display: flex;
+flex-direction:column;
+justify-content: center;
+text-transform: uppercase;
+}
+button{
+    color: white;
+    background-color: black;
+    height: 33px;
+    width: 317px;
+    margin-top: 10px;
+    border-radius: 4px;
+    font-weight: 900;
+}
